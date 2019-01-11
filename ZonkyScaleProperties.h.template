@@ -1,0 +1,7 @@
+/* Wifi connection settings */
+const char* ssid = "XXX";
+const char* ssidPass ="XXX";
+
+const char* influxUrl = "http://example.com:8086/write?db=zonky";
+const char* influxUser = "influxuser";
+const char* influxPass = "influxpass";
