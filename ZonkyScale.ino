@@ -126,7 +126,7 @@ void signalWeight(float weight) {
     digitalWrite(YELLOW_LED, LOW);
     digitalWrite(BLUE_LED, LOW);
     digitalWrite(GREEN_LED, LOW);
-  } else if (weight < 0.200) {
+  } else if (weight < 0.300) {
     digitalWrite(RED_LED, LOW);
     digitalWrite(YELLOW_LED, HIGH);
     digitalWrite(BLUE_LED, LOW);
